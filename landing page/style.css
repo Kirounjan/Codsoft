@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+}
+
+.cart {
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('path-to-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    /* color: white; */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e5533d;
+}
+
+.collections {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.collections h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.collection-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.collection-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.collection-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.collection-item img:hover {
+    transform: scale(1.05);
+}
+
+.collection-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+}
+
+.social-links li {
+    margin-left: 20px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff6347;
+}
